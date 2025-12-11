@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio Data | Vaibhava G</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script defer src="assets/js/script.js"></script>
+    <meta name="description" content="Bio Data and Personal Profile of Vaibhava G" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container flex between center-v">
+            <h1 class="logo"><a href="index.html">Vaibhava G</a></h1>
+            <nav class="main-nav" aria-label="Main navigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">☰</button>
+                <ul id="navMenu">
+                    <li><a href="index.html" class="active">Bio Data</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><button id="themeToggle" class="small" type="button" aria-pressed="false">Dark Mode</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content container" id="mainContent">
+        <section class="card" aria-labelledby="bio-heading">
+            <h2 id="bio-heading">Bio Data</h2>
+            <div class="grid-2 bio-grid">
+                <div>
+                    <figure class="profile-pic">
+                        <img src="assets/img/VP.jpg" alt="Profile photo of Vaibhava G" />
+                        <figcaption>Vaibhava G</figcaption>
+                    </figure>
+                </div>
+                <div class="bio-details">
+                    <dl>
+                        <div class="row"><dt>Full Name</dt><dd>Vaibhava G</dd></div>
+                        <div class="row"><dt>Date of Birth</dt><dd>08/03/2006</dd></div>
+                        <div class="row"><dt>Gender</dt><dd>Male</dd></div>
+                        <div class="row"><dt>Nationality</dt><dd>Indian</dd></div>
+                        <div class="row"><dt>Address</dt><dd>Halady Road, kulanje village,Kundapura,Udupi 576227</dd></div>
+                        <div class="row"><dt>Email</dt><dd><a href="mailto:vaibhavg8121@gmail.com">vaibhavg8121@gmail.com</a></dd></div>
+                        <div class="row"><dt>Phone</dt><dd>+91-9731971568</dd></div>
+                        <div class="row"><dt>Languages</dt><dd>English, Hindi,Kannada</dd></div>
+                        <div class="row"><dt>Interests</dt><dd>Coding,Reading,Design</dd></div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <section class="card" aria-labelledby="objective-heading">
+            <h2 id="objective-heading">Career Objective</h2>
+            <p>
+                Motivated and detail-oriented student aiming to leverage academic knowledge and project experience to contribute effectively in a professional environment while continuously learning modern web technologies.
+            </p>
+        </section>
+
+        <section class="card" aria-labelledby="skills-highlight-heading">
+            <h2 id="skills-highlight-heading">Highlighted Attributes</h2>
+            <ul class="tag-list">
+                <li>Team Player</li>
+                <li>Problem Solving</li>
+                <li>Adaptability</li>
+                <li>Time Management</li>
+                <li>Continuous Learner</li>
+                <li>Active Listener</li>
+                <li>Administrative skills</li>
+                <li>Programming</li>
+           </ul>
+        </section>
+
+        
+
+        <section class="card collapsible" aria-labelledby="extra-heading">
+            <div class="collapse-header">
+                <h2 id="extra-heading">Extra-Curricular</h2>
+                <button class="collapse-toggle" aria-expanded="false" aria-controls="extraContent">Show</button>
+            </div>
+            <div id="extraContent" class="collapse-content" hidden>
+                <ul>
+                    <li>Participated at codetroopers website developement workshop</li>
+                    <li>Participated in IEEE Webdesigning Competation</li>
+                    <li>Member of Coding Club</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Vaibhava G. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
